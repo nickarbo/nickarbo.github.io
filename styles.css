@@ -1,9 +1,32 @@
 body {
-    background:blue;
+    background:#FCFFFE;
     font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.assignment {
+    display:flex;
+    padding:10px;
+    margin: 10px;
+    background:lightgrey;
+    border: radius 10px;
+}
+
+.assignment img {
+    width: 200px;
+  margin: 10px;
+    border:2px dashed #FFA07A;
 }
 
 hi{
     color: darkmagenta;
     text-align:center;
+}
+
+a{
+    text-decoration: none;
+    color: #FFA07A;
+}
+a:hover{
+    color:black;
 }
